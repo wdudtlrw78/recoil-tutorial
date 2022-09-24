@@ -2,6 +2,7 @@ import {RecoilRoot} from "recoil";
 import FontButton from "./components/FontButton";
 import Text from "./components/Text";
 import CharacterCounter from "./components/CharacterCounter";
+import TodoList from "./components/Todo/TodoList";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <FontButton/>
             <Text/>
             <CharacterCounter/>
+            <TodoList/>
         </RecoilRoot>
     );
 }
